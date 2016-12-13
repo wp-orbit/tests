@@ -12,6 +12,9 @@
         <testsuite name="WP Orbit -- Ajax">
             <directory suffix="Test.php">../ajax/tests</directory>
         </testsuite>
+        <testsuite name="WP Orbit -- Forms">
+            <directory suffix="Test.php">../forms/tests</directory>
+        </testsuite>
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
